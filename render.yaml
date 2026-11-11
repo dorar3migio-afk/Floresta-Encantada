@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: floresta-encantada-bd
+    runtime: static
+    buildCommand: echo "Site estático pronto"
+    staticPublishPath: .
+    autoDeployTrigger: commit
